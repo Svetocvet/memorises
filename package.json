@@ -1,0 +1,28 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "eslint": "^6.6.0",
+    "express": "^4.17.1",
+    "google-map-react": "^1.1.7",
+    "jsonwebtoken": "^8.5.1",
+    "leaflet": "^1.6.0",
+    "mongoose": "^5.7.7",
+    "morgan": "^1.9.1",
+    "node-sass": "^4.14.1",
+    "passport": "^0.4.0",
+    "passport-http": "^0.3.0",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
