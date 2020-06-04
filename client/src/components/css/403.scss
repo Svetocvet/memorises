@@ -1,0 +1,33 @@
+@import 'variable.scss';
+
+.Forbidden {
+  div {
+    display: inline-block;
+    color: black;
+    font-size: 400px;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+    font-size: 100px;
+  }
+
+  .space {
+    height: 100px;
+  }
+
+  #ban {
+    position: relative;
+    margin-top: 30px;
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.4s all;
+  }
+}

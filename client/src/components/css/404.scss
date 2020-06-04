@@ -1,0 +1,19 @@
+@import 'variable.scss';
+
+.PageNotFound {
+  div {
+    display: inline-block;
+    color: white;
+    font-size: 400px;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 100px;
+  }
+
+  .space {
+    height: 100px;
+  }
+}

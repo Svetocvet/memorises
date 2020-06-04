@@ -1,0 +1,111 @@
+@import 'variable.scss';
+
+.New {
+  width: 100%;
+  border-radius: 5px;
+  background-color: $myWhiteColor;
+  padding: 20px;
+
+  .files {
+    position: relative;
+
+    input {
+      outline: 2px dashed #92b0b3;
+      outline-offset: -10px;
+      -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+      transition: outline-offset .15s ease-in-out, background-color .15s linear;
+      padding: 120px 0px 85px;
+      text-align: center !important;
+      margin: 0;
+      width: 100% !important;
+      background-color: #f2f2f2;
+    }
+
+    input:focus {
+      outline: 2px dashed #92b0b3;
+      outline-offset: -10px;
+      -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+      transition: outline-offset .15s ease-in-out, background-color .15s linear;
+      border: 1px solid #92b0b3;
+    }
+
+  }
+
+  .files:after {
+    pointer-events: none;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 50px;
+    right: 0;
+    height: 56px;
+    content: "";
+    background-image: url(https://image.flaticon.com/icons/png/128/109/109612.png);
+    display: block;
+    margin: 0 auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .files:before {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    pointer-events: none;
+    width: 100%;
+    right: 0;
+    height: 57px;
+    content: " or drag it here. ";
+    display: block;
+    margin: 0 auto;
+    color: $myBlueColor;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+  }
+
+  input[type=text], input[type=number], select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+    resize: vertical;
+  }
+
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+
+  input[type=submit] {
+    background-color: $myBlueColor;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .col-md-6 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .line:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .New input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+}
+
+

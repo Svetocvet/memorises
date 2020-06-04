@@ -1,0 +1,22 @@
+@import 'variable.scss';
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  a {
+    color: black;
+  }
+
+  img {
+    width: 75%;
+    border-radius: 5px;
+  }
+
+}
+

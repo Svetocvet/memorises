@@ -1,0 +1,36 @@
+@import 'variable.scss';
+
+.gallery {
+  padding-bottom: 25px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  img {
+    background-color: $myBlueColor;
+    border-radius: 8px;
+    width: 930px;
+    height: 600px;
+  }
+
+  .image-gallery {
+    max-width: 100%;
+  }
+
+  .image-gallery-thumbnails {
+    height: 0;
+  }
+  .image-gallery-thumbnail .image-gallery-thumbnail-image {
+    height: 0;
+  }
+  h3{
+    margin: 15px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .gallery img {
+    height: 240px;
+  }
+}

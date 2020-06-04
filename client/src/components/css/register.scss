@@ -1,0 +1,81 @@
+@import 'variable.scss';
+
+.Register {
+  box-sizing: border-box;
+
+  .container {
+    padding: 16px;
+  }
+
+  input {
+    border-radius: 10px;
+    border: 2px #457b9d solid;
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    background: $myWhiteColor;
+  }
+
+  input:focus {
+    background-color: #a8dadc;
+    outline: none;
+  }
+
+  hr {
+    border: 1px solid #457b9d;
+    margin-bottom: 25px;
+  }
+
+  .registerbtn {
+    border-radius: 10px;
+    background-color: $myRedColor;
+    color: $myWhiteColor;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+
+  .registerbtn:hover {
+    opacity: 1;
+  }
+
+  a {
+    color: $myBlueColor;
+  }
+
+  .signin {
+    background-color: $myWhiteColor;
+    text-align: center;
+  }
+
+  #message {
+    border-radius: 10px;
+    display: block;
+    background: $myWhiteColor;
+    color: #000;
+    border: 1px solid $myRedColor;
+
+    p {
+      font-size: 18px;
+    }
+  }
+
+}
+
+.valid:before {
+  left: -35px;
+  content: '\2713';
+}
+
+.invalid {
+  color: $myRedColor;
+}
+
+.invalid:before {
+  left: -35px;
+  content: '\2717';
+}

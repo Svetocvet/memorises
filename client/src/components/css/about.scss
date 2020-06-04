@@ -1,0 +1,20 @@
+@import 'variable.scss';
+
+.Map {
+  height: 50%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  padding-top: 10px;
+}
+
+.ApiList {
+  a {
+    color: black;
+  }
+}

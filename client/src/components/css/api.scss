@@ -1,0 +1,27 @@
+@import 'variable.scss';
+
+.API {
+  * {
+    color: $myBlueColor;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  #warning {
+    color: $myRedColor;
+  }
+
+  p {
+    font-weight: bold;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+  table, th, td {
+    border: $myBlueColor;
+  }
+}

@@ -1,0 +1,60 @@
+@import 'variable.scss';
+
+.Login {
+  width: 100%;
+
+  * {
+    box-sizing: border-box
+  }
+
+  input {
+    border-radius: 10px;
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 2px #457b9d solid;
+    background-color: #f1faee;
+    color: black;
+  }
+
+  input:focus {
+    background-color: #a8dadc;
+    outline: none;
+  }
+
+  hr {
+    border: 1px solid #457b9d;
+    margin-bottom: 25px;
+  }
+
+  a {
+    color: #1d3557;
+  }
+
+  .loginbtsn {
+    border-radius: 10px;
+    background-color: $myRedColor;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+
+  .loginbtsn:hover {
+    opacity: 1;
+  }
+
+  .signin {
+    background-color: #f1faee;
+    text-align: center;
+  }
+
+  .container {
+    padding: 16px;
+    width: 100%;
+  }
+}
