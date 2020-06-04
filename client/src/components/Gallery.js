@@ -25,7 +25,6 @@ class Gallery extends Component {
     render() {
         return (
             <div className="gallery">
-
                 <h3>Here some random pictures from our user`s memories</h3>
                 {!this.state.data[0] &&
                 <Loader

@@ -43,15 +43,6 @@ class Login extends React.Component {
         }
     }
 
-    componentDidMount() {
-
-
-    }
-
-    componentWillUnmount() {
-
-
-    }
 
     render() {
         return (

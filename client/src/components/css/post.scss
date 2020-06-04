@@ -1,6 +1,7 @@
 @import 'variable.scss';
 
 .Post {
+  width: 100%;
   form {
     position: relative;
     padding: 16px;
@@ -96,11 +97,12 @@
     -webkit-animation: animatezoom 0.6s;
     animation: animatezoom 0.6s
   }
+  .content {
+    margin: 30px;
+  }
 }
 
-.content {
-  margin: 30px;
-}
+
 
 @-webkit-keyframes animatezoom {
   from {

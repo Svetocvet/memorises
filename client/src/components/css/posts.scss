@@ -58,6 +58,7 @@
   }
 
   .btn {
+    margin-bottom: 20px;
     -webkit-appearance: button;
     -moz-appearance: button;
     text-decoration: none;
@@ -71,8 +72,10 @@
     vertical-align: unset;
   }
   .handlers{
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     width: 100%;
   }
 }
@@ -121,3 +124,4 @@ select {
   text-decoration: none;
   transition: background-color .3s;
 }
+

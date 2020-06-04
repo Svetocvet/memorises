@@ -1,14 +1,10 @@
 @import 'variable.scss';
 
-p {
-  font-weight: 400;
-  font-size: 18px;
-}
-
-.content {
+.mem-content {
   display: flex;
   align-items: center;
   flex-direction: column;
+
   a {
     color: black;
   }
@@ -18,5 +14,11 @@ p {
     border-radius: 5px;
   }
 
+  p {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 18px;
+  }
 }
 

@@ -12,8 +12,6 @@ class PageNOtFound extends React.Component {
                     4
                 </div>
                 <p><a href="/">Run from here</a></p>
-
-
             </div>
         )
     }

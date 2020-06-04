@@ -99,7 +99,6 @@ class NewPost extends React.Component {
                                ref={this.description} required/>
                     </div>
 
-
                     {progress &&
                     <div className="progress">
                         <div id="progress" className="progress-bar progress-bar-success progress-bar-striped"

@@ -7,7 +7,7 @@ class Home extends React.Component {
         return (
             <div className="Home">
                 <h1>Memorises</h1>
-                <div className="content">
+                <div className="mem-content">
                     <p>Greetings on the website, here you can keep the memories that are dear to you.
                         Our site also has an <Link classname="link" to="/developer"><u>API</u></Link>.</p>
                     <p>I have nothing more to add, so let`s look at the funny pictures.</p>
@@ -19,6 +19,7 @@ class Home extends React.Component {
                     <img src="https://hookagency.com/wp-content/uploads/2016/04/website-is-done-meme.jpg.webp"/>
                     <br></br>
                     <img src="https://media.proglib.io/wp-uploads/2019/06/global-state.jpeg"/>
+                    <br></br>
                 </div>
             </div>
         );

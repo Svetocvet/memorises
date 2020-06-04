@@ -5,7 +5,7 @@ const morgan = require('morgan');
 const passport = require('passport');
 const path = require('path');
 
-const port =  process.env.PORT || 8003;
+const port =  process.env.PORT || 7777;
 
 const app = express();
 
